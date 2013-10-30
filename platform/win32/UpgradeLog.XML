@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="mupdf">
+</Property><Property Name="解决方案文件" Value="K:\MuPDF\mupdf-1.3-source\mupdf-1.3-source\platform\win32\mupdf.sln">
+</Property><Property Name="Date" Value="2013年10月22日">
+</Property><Property Name="Time" Value="14:04">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="mupdf.sln" Description="文件已成功备份为 K:\MuPDF\mupdf-1.3-source\mupdf-1.3-source\platform\win32\mupdf.sln.old">
+</Event><Event ErrorLevel="0" Project="mupdf" Source="mupdf.vcproj" Description="已不再支持对本地 IIS 服务器的 Web 部署。Web 部署生成工具已从项目设置中删除。">
+</Event><Event ErrorLevel="1" Project="mupdf" Source="mupdf.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="mupdf" Source="mupdf.vcproj" Description="已成功地将项目文件备份为“K:\MuPDF\mupdf-1.3-source\mupdf-1.3-source\platform\win32\mupdf.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="mupdf" Source="mupdf.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="mupdf" Source="mupdf.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="libthirdparty" Source="libthirdparty.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="libthirdparty" Source="libthirdparty.vcproj" Description="已成功地将项目文件备份为“K:\MuPDF\mupdf-1.3-source\mupdf-1.3-source\platform\win32\libthirdparty.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="libthirdparty" Source="libthirdparty.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="libthirdparty" Source="libthirdparty.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="libmupdf" Source="libmupdf.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="libmupdf" Source="libmupdf.vcproj" Description="已成功地将项目文件备份为“K:\MuPDF\mupdf-1.3-source\mupdf-1.3-source\platform\win32\libmupdf.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="libmupdf" Source="libmupdf.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="libmupdf" Source="libmupdf.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="mudraw" Source="mudraw.vcproj" Description="已不再支持对本地 IIS 服务器的 Web 部署。Web 部署生成工具已从项目设置中删除。">
+</Event><Event ErrorLevel="1" Project="mudraw" Source="mudraw.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="mudraw" Source="mudraw.vcproj" Description="已成功地将项目文件备份为“K:\MuPDF\mupdf-1.3-source\mupdf-1.3-source\platform\win32\mudraw.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="mudraw" Source="mudraw.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="mudraw" Source="mudraw.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="mutool" Source="mutool.vcproj" Description="已不再支持对本地 IIS 服务器的 Web 部署。Web 部署生成工具已从项目设置中删除。">
+</Event><Event ErrorLevel="1" Project="mutool" Source="mutool.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="mutool" Source="mutool.vcproj" Description="已成功地将项目文件备份为“K:\MuPDF\mupdf-1.3-source\mupdf-1.3-source\platform\win32\mutool.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="mutool" Source="mutool.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="mutool" Source="mutool.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="generated" Source="generated.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="generated" Source="generated.vcproj" Description="已成功地将项目文件备份为“K:\MuPDF\mupdf-1.3-source\mupdf-1.3-source\platform\win32\generated.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="generated" Source="generated.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="generated" Source="generated.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="libmupdf-js-v8" Source="libmupdf-js-v8.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="libmupdf-js-v8" Source="libmupdf-js-v8.vcproj" Description="已成功地将项目文件备份为“K:\MuPDF\mupdf-1.3-source\mupdf-1.3-source\platform\win32\libmupdf-js-v8.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="libmupdf-js-v8" Source="libmupdf-js-v8.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="libmupdf-js-v8" Source="libmupdf-js-v8.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="mupdf-v8" Source="mupdf-v8.vcproj" Description="已不再支持对本地 IIS 服务器的 Web 部署。Web 部署生成工具已从项目设置中删除。">
+</Event><Event ErrorLevel="1" Project="mupdf-v8" Source="mupdf-v8.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="mupdf-v8" Source="mupdf-v8.vcproj" Description="已成功地将项目文件备份为“K:\MuPDF\mupdf-1.3-source\mupdf-1.3-source\platform\win32\mupdf-v8.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="mupdf-v8" Source="mupdf-v8.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="mupdf-v8" Source="mupdf-v8.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="mujstest-v8" Source="mujstest-v8.vcproj" Description="已不再支持对本地 IIS 服务器的 Web 部署。Web 部署生成工具已从项目设置中删除。">
+</Event><Event ErrorLevel="1" Project="mujstest-v8" Source="mujstest-v8.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="mujstest-v8" Source="mujstest-v8.vcproj" Description="已成功地将项目文件备份为“K:\MuPDF\mupdf-1.3-source\mupdf-1.3-source\platform\win32\mujstest-v8.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="mujstest-v8" Source="mujstest-v8.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="mujstest-v8" Source="mujstest-v8.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="libmupdf-js-none" Source="libmupdf-js-none.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="libmupdf-js-none" Source="libmupdf-js-none.vcproj" Description="已成功地将项目文件备份为“K:\MuPDF\mupdf-1.3-source\mupdf-1.3-source\platform\win32\libmupdf-js-none.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="libmupdf-js-none" Source="libmupdf-js-none.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="libmupdf-js-none" Source="libmupdf-js-none.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="vc8libcurl" Source="..\..\thirdparty\curl\vs\vc8\lib\vc8libcurl.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="vc8libcurl" Source="..\..\thirdparty\curl\vs\vc8\lib\vc8libcurl.vcproj" Description="已成功地将项目文件备份为“K:\MuPDF\mupdf-1.3-source\mupdf-1.3-source\thirdparty\curl\vs\vc8\lib\vc8libcurl.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="vc8libcurl" Source="..\..\thirdparty\curl\vs\vc8\lib\vc8libcurl.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="vc8libcurl" Source="..\..\thirdparty\curl\vs\vc8\lib\vc8libcurl.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="mupdf-curl" Source="mupdf-curl.vcproj" Description="已不再支持对本地 IIS 服务器的 Web 部署。Web 部署生成工具已从项目设置中删除。">
+</Event><Event ErrorLevel="1" Project="mupdf-curl" Source="mupdf-curl.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="mupdf-curl" Source="mupdf-curl.vcproj" Description="已成功地将项目文件备份为“K:\MuPDF\mupdf-1.3-source\mupdf-1.3-source\platform\win32\mupdf-curl.vcproj.8.00.old”。">
+</Event><Event ErrorLevel="0" Project="mupdf-curl" Source="mupdf-curl.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="mupdf-curl" Source="mupdf-curl.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="mupdf.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="mupdf.sln" Description="Converted">
+</Event></UpgradeLog>
