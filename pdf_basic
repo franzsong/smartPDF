@@ -1,4 +1,4 @@
-PDF Basic  From Document management  — Portable document format — Part 1: PDF 1.7
+PDF Basic  From Document management  — Portable document format — Part 1: PDF 1.7 (use tool node++ to view file bytes).
 --------------------------------------------------
 7 Syntax
 This clause covers everthing about the syntax of PDF at the objects, file, and document level.
@@ -9,19 +9,22 @@ PDF syntax contains 4 parts:
 4) Content Streams. A PDF content stream contains a sequence of instructions describing the appearance of a page or other graphical entity.
 --------------------------------------------------
 Character Set
-The PDF character set is divided into three classes, called re gular,  delimiter , and  white-space characters.  
+   The PDF character set is divided into three classes, called re gular,  delimiter , and  white-space characters.  
 --------------------------------------------------
 Objects
-PDF includes eight basic types of objects: Boolean values, Integer and Real numbers, Strings, Names, Arrays, Dictionaries, Streams, and the null object.
+   PDF includes eight basic types of objects: Boolean values, Integer and Real numbers, Strings, Names, Arrays, Dictionaries, Streams, and the null object.
 --------------------------------------------------
 Steam Filters
-An option when reading stream data is to decode it using a filter to produce the original non-encoded data. Whether to do so and which decoding filter or filters to use may be specified in the stream dictionary.
+   An option when reading stream data is to decode it using a filter to produce the original non-encoded data. Whether to do so and which decoding filter or filters to use may be specified in the stream dictionary.
 PDF supports a standard set of filters  that fall into two main categories: ASCII filters   and Decompression filters.
 ASCIIHexDecode/ASCII85Decode/LZWDecode/FlateDecode/RunLengthDecode/CCITTFaxDecode/JBIG2Decode/DCTDecode/JPXDecode/Crypt
 Every Decode Filter has exactly decode asthmatics.
 --------------------------------------------------
 File Structure
-A basic conforming PDF file shall be constructed of following four elements:
-A one-line header identifying the version of the PDF specification to which the file conforms.
+ A basic conforming PDF file shall be constructed of following four elements:
+ *  Header: A one-line header identifying the version of the PDF specification to which the file conforms.
+ *  Body: A body containing the objects that make up the document contained in the file.
+ *  CR Table: A cross-reference table containing information about the indirect objects in the file.
+ * Trailer: A trailer giving the location of the cross-reference table and certain special objects within the body of file.
 
 
