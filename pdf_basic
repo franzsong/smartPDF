@@ -1,1 +1,15 @@
-PDF Basic <P>
+PDF Basic  From Document management  — Portable document format — Part 1: PDF 1.7
+--------------------------------------------------
+7 Syntax
+This clause covers everthing about the syntax of PDF at the objects, file, and document level.
+PDF syntax contains 4 parts:
+1) Objects: A PDF document is a data structure composed from a small set of basic types of data objects.
+2) File Structure. The PDF file structure determines how objects are stored in a PDF file, how they are accessed, and how they are updated. It is independent of semantics of the objects.
+3) Document structure: The PDF Document Structure specifies how the basic objects types are used to represent components of a PDF document: pages, fonts, annotations, and so forth.
+4) Content Streams. A PDF content stream contains a sequence of instructions describing the appearance of a page or other graphical entity.
+--------------------------------------------------
+Character Set
+The PDF character set is divided into three classes, called re gular,  delimiter , and  white-space characters.  
+--------------------------------------------------
+Objects
+PDF includes eight basic types of objects: Boolean values, Integer and Real numbers, Strings, Names, Arrays, Dictionaries, Streams, and the null object.
