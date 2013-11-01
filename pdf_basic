@@ -77,5 +77,21 @@ that the entire file need not be read to locate any particular object.
       0000030697 00000 n
       0000030907 00000 n
 --------------------------------------------------
+File Trailer
+The trailer  of a PDF file enables a conforming reader to quickly find the cross-reference table and certain special objects. 
+   Example:
+   trailer
+   <</Size 9/Root 6 0 R/Info 7 0 R/ID[<CBF9C0B82001B8E2F3B2C7B10ECE7F89><CBF9C0B82001B8E2F3B2C7B10ECE7F89>]>>
+   startxref
+   31967
+   %%EOF
+   
+   The trailer  of a PDF file enables a conforming reader to quickly find the cross-reference table and certain 
+special objects. Conforming readers should read a PDF file  from its end. 
+   From Endline to front:
+   1. End-of-file marker,  %%EOF. 
+   2. two preceding lines between xref and startxref.
+   3. Body of xref and startxref use double angle brackets (<< … >>) to store dictionary: key:value.
+   
 
    
