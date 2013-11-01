@@ -86,6 +86,7 @@ The trailer  of a PDF file enables a conforming reader to quickly find the cross
    31967
    %%EOF
    
+   
    The trailer  of a PDF file enables a conforming reader to quickly find the cross-reference table and certain 
 special objects. Conforming readers should read a PDF file  from its end. 
    From Endline to front:
@@ -93,5 +94,12 @@ special objects. Conforming readers should read a PDF file  from its end.
    2. two preceding lines between xref and startxref.
    3. Body of xref and startxref use double angle brackets (<< … >>) to store dictionary: key:value.
    
+This example shows a trailer  for a file that has neve r been updated (as indicated  by the absence of a Prev entry in the trailer dictionary.
+2 Document Structure
+A  PDF document can be regarded as hierarchy of objects contained in the body section of a PDF file. At the root of the hierarchy is the document's catalog dictionary.
+The data structures is composed of Catalog and Page dictionaries, combine entries describing document structure with ones dealing with detailed semantics of documents and pages
+2.1 Document Catalog (Catalog=Dir)
+The root of a document's object hierarchy is the catalog dictionary. located by means of the Root entry.
+ 
 
    
