@@ -13,3 +13,15 @@ The PDF character set is divided into three classes, called re gular,  delimiter
 --------------------------------------------------
 Objects
 PDF includes eight basic types of objects: Boolean values, Integer and Real numbers, Strings, Names, Arrays, Dictionaries, Streams, and the null object.
+--------------------------------------------------
+Steam Filters
+An option when reading stream data is to decode it using a filter to produce the original non-encoded data. Whether to do so and which decoding filter or filters to use may be specified in the stream dictionary.
+PDF supports a standard set of filters  that fall into two main categories: ASCII filters   and Decompression filters.
+ASCIIHexDecode/ASCII85Decode/LZWDecode/FlateDecode/RunLengthDecode/CCITTFaxDecode/JBIG2Decode/DCTDecode/JPXDecode/Crypt
+Every Decode Filter has exactly decode asthmatics.
+--------------------------------------------------
+File Structure
+A basic conforming PDF file shall be constructed of following four elements:
+A one-line header identifying the version of the PDF specification to which the file conforms.
+
+
