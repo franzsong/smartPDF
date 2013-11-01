@@ -41,7 +41,9 @@ As a matter of convention, the tokens in a PDF file are arranged into lines (EOL
    File Header %PDF–1.4
    The cross-reference table  contains information that permits random access to indirect objects within the file so 
 that the entire file need not be read to locate any particular object. 
-   CR table format is "nnnnnnnnnn   ggggg   f   eol"
+   CR table format is
+   "nnnnnnnnnn nnnnnnnnnn  eol"
+   "nnnnnnnnnn   ggggg   f   eol"
    Example:
    xref  
    0  1 
