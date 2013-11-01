@@ -98,8 +98,22 @@ This example shows a trailer  for a file that has neve r been updated (as indica
 2 Document Structure
 A  PDF document can be regarded as hierarchy of objects contained in the body section of a PDF file. At the root of the hierarchy is the document's catalog dictionary.
 The data structures is composed of Catalog and Page dictionaries, combine entries describing document structure with ones dealing with detailed semantics of documents and pages
-2.1 Document Catalog (Catalog=Dir)
-The root of a document's object hierarchy is the catalog dictionary. located by means of the Root entry.
- 
 
-   
+2.1 Document Catalog (Catalog=Dir)
+The catalog  dictionary, located by means of the Root entry in the trailer of the PDF file. The catalog contains references to other objects defining the document’s contents, outline, article threads, named destinations, and other attributes. In addition, it contains disply controlling information
+Tree：
+Doc+----Pages
+                  +----Page 1# 
+                            +Content Stream
+                            +Thumbnail image
+                            +Annotation
+                   +----Page 2# 
+      +----Outline Hierarchy
+                   +----outline entry 1#
+                   +----outline entry 2#
+      +----Article threads
+                   +----Thread 1#
+                   +----Thread  2#
+      +----Named Destinations
+      +----Interactive form
+     
