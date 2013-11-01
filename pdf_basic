@@ -20,11 +20,60 @@ PDF supports a standard set of filters  that fall into two main categories: ASCI
 ASCIIHexDecode/ASCII85Decode/LZWDecode/FlateDecode/RunLengthDecode/CCITTFaxDecode/JBIG2Decode/DCTDecode/JPXDecode/Crypt
 Every Decode Filter has exactly decode asthmatics.
 --------------------------------------------------
-File Structure
+File Structure (Tip: The Sequence of bytes is not same as the logic of document structure)
  A basic conforming PDF file shall be constructed of following four elements:
  *  Header: A one-line header identifying the version of the PDF specification to which the file conforms.
  *  Body: A body containing the objects that make up the document contained in the file.
  *  CR Table: A cross-reference table containing information about the indirect objects in the file.
- * Trailer: A trailer giving the location of the cross-reference table and certain special objects within the body of file.
+ *  Trailer: A trailer giving the location of the cross-reference table and certain special objects within the body of file.
++_______________________+
++       Header          +
++_______________________+
++                       +
++         Body          +
++_______________________+
++    Cross Ref Table    +
++_______________________+
++        Trailer        +
++_______________________+
 
+As a matter of convention, the tokens in a PDF file are arranged into lines (EOL) or LINE FEED (0Ah).
+   File Header %PDF–1.4
+   The cross-reference table  contains information that permits random access to indirect objects within the file so 
+that the entire file need not be read to locate any particular object. 
+   CR table format is "nnnnnnnnnn   ggggg   f   eol"
+   Example:
+   xref  
+   0  1 
+   0000000000  65535   f  
+   3  1 
+   0000025325  00000   n 
+   23  2 
+   0000025518  00002   n 
+   0000025635  00000   n 
+   30  1 
+   0000025777  00000   n
 
+   The example shows a cross-reference section  with 4 subsections:
+      The 1st  contains one entry, for object number 0, which is free. 
+      The second subsection contains one entry, for object number 3, which is in use. 
+      The third subsection contains two entries, for objects number 23 and 24, both of which are in use. 
+      The fourth subsection cont ains one entry, for object number 30, which is in use.  
+    CR 0  1 :  "0" is the section number. "1" is the object count.
+       0000000000  65535   f:  "0000000000" is "byte offset in the decoded stream" 65535" is generation number . n/f is now in use and free to delete. 
+       
+       image.pdf's 
+xref
+0 9
+0000000000 65535 f
+0000000016 00000 n
+0000000208 00000 n
+0000015573 00000 n
+0000030404 00000 n
+0000030586 00000 n
+0000030637 00000 n
+0000030697 00000 n
+0000030907 00000 n
+------------------------------------------------------
+
+   
