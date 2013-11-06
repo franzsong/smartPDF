@@ -116,4 +116,28 @@ Doc+----Pages
                    +----Thread  2#
       +----Named Destinations
       +----Interactive form
+     8 Graphics
      
+     The graphics operators used in PDF content stream s describe the appearance of pages that are to be 
+reproduced on a raster  output device. The fa cilities described in this clause  are intended for both printer and 
+display applications. 
+
+The graphics operators form six main groups: 
+
+• Graphics state operators
+• Path construction operators
+• Path-painting operators 
+• Other painting operators
+• Text operators
+• Marked-content
+
+8.2 Graphics Objects
+The operands and operators 
+
+PDF provides five types of graphics objects:
+•A path object is an arbitrary shape made up of straight lines, rectangles, and cubic Bézier curves.
+•A te xt object  consists of one or more character strings that  identify sequences of gly phs to be painted. 
+*An external object (XObject)  is an object defined outside the content stream and referenced as a named 
+* An in line image object  uses a special syntax to express the  data for a small image directly within the 
+content streamresource
+* A shading object describes a geometric shape whose colour is  an arbitrary function of position within the shape.
